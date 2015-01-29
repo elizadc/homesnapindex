@@ -1,49 +1,206 @@
 body {
-	background-color: #f5f5f5
+	background-color: #f5f5f5; 
 	font-family: avenir next, sans-serif;
 }
 
 input {
-	border:0;
+	border:1.5pt solid;
 	padding: 10px;
+	border-color: #f5f5f5;
+	/*border-radius: 5px;*/
 }
 input[type="submit"] {
 	background: #4593CE;
 	color: white;
 }
 
+ul
+{
+    list-style-type: none;
+    padding:0; 
+    margin:0;
+    text-align: center;
+}
+
+
+/*Header Block*/
+
+
+.HomesnapLogo2 {
+	width: 328px;
+	height: 69px;
+}
+
 .header {
-	background-color: black;
 	width: 100%;
 	height: 140px;
 }
 
+
+/*Property Information Block*/
+
 .propertyinfo {
-	background-color: orange;
 	width: 100%;
 	height: 1010px;
 }
 
+	.propertyphotobackground {
+		float: left;
+		background-color: white;
+		width: 630px;
+		height: 426px;
+		border: 1.5pt solid;
+		border-color: #f5f5f5;
+	    border-radius: 5px;
+	}
+
+	.propertysummary {
+		float: left;
+		background-color: white;
+		width: 630px;
+		height: 114px;
+		border: 1.5pt solid;
+		border-color: #f5f5f5;
+	    border-radius: 5px;
+	}
+
+		.propertyhistorybackground {
+		float: right;
+		background-color: white;
+		width: 310px;
+		height: 182px;
+		border: 1.5pt solid;
+		border-color: #f5f5f5;
+	    border-radius: 5px;
+	}
+
+	.propertyfeaturesbackground {
+		float: left;
+		background-color: white;
+		width: 630px;
+		height: 433px;
+		border: 1.5pt solid;
+		border-color: #f5f5f5;
+	    border-radius: 5px;
+	}
+
+.getmoreinfobackground {
+	float: right;
+	background-color: white;
+	width: 310px;
+	height: 306px;
+	border: 1.5pt solid;
+	border-color: #f5f5f5;
+    border-radius: 5px;
+
+}
+
+.download {
+	background-color: white;
+	width: 310px;
+	height: 145px;
+	border: 1.5pt solid;
+	border-color: #f5f5f5;
+    border-radius: 5px;
+    float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/*Similar Listings Block*/
+
+
 .similarlistings {
-	background-color: yellow;
+	float: left;
 	width: 100%;
 	height: 225px;
 }
-.similar {
-	background-color: black;
-	width: 220px;
-	height:153px;
 
+.similarlistingsbackground {
+	float: left;
+	background-color: white;
+/*	width: 955px;*/
+	height:203px;
+	border: 1.5pt solid;
+	border-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.sim1 {
+position: absolute
+top: 0;
+left: 50%;
+}
+
+/*Footer Block*/
+
+.footerbackground {
+	float: left;
+	background-color: white;
+	width: 955px;
+	height:134px;
+	border: 1.5pt solid;
+	border-color: #f5f5f5;
+    border-radius: 5px;
+    }
+
+.homepics {
+	width: 220px;
+	height: 153px;
+	padding-top: 10px;
+	padding-left: 15px;
 }
 
 .footer {
-	background-color: green;
+	
 	width: 100%;
 	height:150px;
+	padding-top: 5px;
 }
 
+	.footerbackground {
+		background-color: white;
+	/*	width: 955px;*/
+		height:134px;
+		border: 1.5pt solid;
+		border-color: #f5f5f5;
+	    border-radius: 5px;
+	}
+
+		.homebuyers {
+			float: left;
+			width: 318px;
+			height: 134px;
+			padding-top: 5px;
+		}
+
+		.about {
+			float: left;
+			width: 318px;
+			height: 134px;
+			padding-top: 5px;
+		}
+
+		.agents {
+			float: left;
+			width: 318px;
+			height: 134px;
+			padding-top: 5px;
+		}
+
 .copyright {
-	background-color: blue;
 	width: 100%;
 	height: 60px;
+	text-align: center;
 }
+
+	.copyrightbackground {
+		background-color: white;
+		/*width: 100%;*/
+		height:53px;
+		border: 1.5pt solid;
+		border-color: #f5f5f5;
+	}
